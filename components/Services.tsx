@@ -9,7 +9,7 @@ const Services = () => {
       title: "Pet Sitting",
       description:
         "We will sit with your pet and even stay overnight if needed.",
-      price: "from $15/hour",
+      price: "mula ₱200/oras",
       image: "/pet-sitting.jpg",
       features: ["24/7 Care", "Daily Updates", "Emergency Support"],
     },
@@ -17,7 +17,7 @@ const Services = () => {
       title: "Dog Training",
       description:
         "Professional dog handlers can train dogs of any breed and consult their owners.",
-      price: "from $35/hour",
+      price: "mula ₱800/oras",
       image: "/dog-training.jpg",
       features: ["Behavior Training", "Obstacle Course", "Social Training"],
     },
@@ -25,7 +25,7 @@ const Services = () => {
       title: "Dog Walking",
       description:
         "We can take your dog for a walk on schedule and bring it back home.",
-      price: "from $10/hour",
+      price: "mula ₱150/oras",
       image: "/dog-walking.jpg",
       features: ["Flexible Schedule", "GPS Tracking", "Group Walks"],
     },
