@@ -86,17 +86,18 @@ const Navbar = () => {
             >
               <div className="flex flex-col items-center py-4 space-y-4">
                 <button
+                  onClick={(e) => handleScroll(e, "hero")}
+                  className="text-gray-600 hover:text-blue-900 cursor-pointer font-medium"
+                >
+                  Home
+                </button>
+                <button
                   onClick={(e) => handleScroll(e, "About-us")}
                   className="text-gray-600 hover:text-blue-900 cursor-pointer font-medium"
                 >
                   About Us
                 </button>
-                <button
-                  onClick={(e) => handleScroll(e, "FAQ")}
-                  className="text-gray-600 hover:text-blue-900 cursor-pointer font-medium"
-                >
-                  FAQ
-                </button>
+
                 <button
                   onClick={(e) => handleScroll(e, "testimonials")}
                   className="text-gray-600 hover:text-blue-900 cursor-pointer font-medium"
