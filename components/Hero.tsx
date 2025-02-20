@@ -3,17 +3,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Phone, Calendar, ArrowRight } from "lucide-react";
 import Image from "next/image";
-import { useState } from "react";
 
 const Hero = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
   const handleScroll = (e: React.MouseEvent, sectionId: string) => {
     e.preventDefault();
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false); // Close menu after clicking a link
     }
   };
 

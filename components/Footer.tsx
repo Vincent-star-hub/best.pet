@@ -64,7 +64,7 @@ const Footer = () => {
             <h3 className="text-3xl font-bold">Best.Pet</h3>
             <p className="text-orange-100 leading-relaxed">
               Providing exceptional pet care services with love and expertise.
-              Your pet's happiness is our priority.
+              Your pet&apos;s happiness is our priority.
             </p>
             <div className="flex gap-4 pt-4">
               {socials.map(({ icon: Icon, href, label }) => (

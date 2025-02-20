@@ -28,9 +28,7 @@ export const metadata: Metadata = {
   description: "A website for pet owners to find services for their pets.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
+export default function RootLayout({}: Readonly<{
   children: React.ReactNode;
 }>) {
   return (

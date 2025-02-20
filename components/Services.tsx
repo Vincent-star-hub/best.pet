@@ -51,7 +51,7 @@ const Services = () => {
           </h2>
           <p className="text-blue-600/80 max-w-2xl mx-auto">
             Choose from our range of professional pet care services tailored to
-            meet your pet's needs.
+            meet your pet&apos;s needs.
           </p>
         </motion.div>
 

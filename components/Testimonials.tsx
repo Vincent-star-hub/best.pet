@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Quote, PawPrint, Star } from "lucide-react";
+import Image from "next/image";
 
 const Testimonials = () => {
   const testimonials = [
@@ -47,8 +48,8 @@ const Testimonials = () => {
             What Our Clients Say
           </h2>
           <p className="text-blue-600/80 max-w-2xl mx-auto">
-            If pets could talk, here's what they'd tell about us (according to
-            their owners).
+            If pets could talk, here&apos;s what they&apos;d tell about us
+            (according to their owners).
           </p>
         </motion.div>
 
@@ -65,9 +66,11 @@ const Testimonials = () => {
               <Quote className="absolute top-4 right-4 w-8 h-8 text-orange-200" />
               <div className="flex items-center mb-6">
                 <div className="relative">
-                  <img
+                  <Image
                     src={testimonial.image}
                     alt={testimonial.name}
+                    width={100}
+                    height={100}
                     className="w-14 h-14 rounded-full object-cover"
                   />
                   <div className="absolute -bottom-2 -right-2 bg-orange-500 text-white p-1 rounded-full">

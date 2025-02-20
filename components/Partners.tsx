@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Partners = () => {
   // Sample partner logos (Replace with actual brand logos)
@@ -64,10 +65,12 @@ const Partners = () => {
                   key={`${partner.id}-${index}`}
                   className="flex-shrink-0 w-48 h-24 bg-white rounded-lg shadow-md border border-gray-200 p-4 flex items-center justify-center group hover:shadow-xl hover:scale-105 transition-all duration-300"
                 >
-                  <img
+                  <Image
                     src={partner.logo}
                     alt={partner.name}
                     className="max-w-full max-h-full object-contain opacity-80 group-hover:opacity-100 transition-opacity duration-300"
+                    width={200}
+                    height={100}
                   />
                 </div>
               ))}

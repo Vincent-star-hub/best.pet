@@ -44,7 +44,7 @@ const HomePage = () => {
               transition={{ delay: 0.2 }}
             >
               Professional pet care services with love and dedication. Your
-              pet's health and happiness is our top priority.
+              pet&apos;s health and happiness is our top priority.
             </motion.p>
             <motion.div
               className="space-x-4"

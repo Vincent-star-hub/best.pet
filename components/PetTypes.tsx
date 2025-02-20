@@ -2,13 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Star, Quote, PawPrint } from "lucide-react";
-
-const fadeInUp = {
-  initial: { opacity: 0, y: 20 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.5 },
-};
+import { ArrowRight, PawPrint } from "lucide-react";
 
 const PetTypes = () => {
   const pets = [

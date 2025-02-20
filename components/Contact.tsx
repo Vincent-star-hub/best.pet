@@ -8,7 +8,6 @@ import {
   Heart,
   ChevronDown,
   ChevronUp,
-  PawPrint,
 } from "lucide-react";
 
 const Contact = () => {

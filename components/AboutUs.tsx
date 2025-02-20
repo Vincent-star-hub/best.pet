@@ -64,9 +64,9 @@ const AboutUs = () => {
               Welcome to Best.Pet
             </h2>
             <p className="text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              Since 2009, we've been dedicated to providing exceptional care for
-              your beloved pets. Our mission is to ensure every pet receives the
-              love, attention, and professional care they deserve.
+              Since 2009, we&apos;ve been dedicated to providing exceptional
+              care for your beloved pets. Our mission is to ensure every pet
+              receives the love, attention, and professional care they deserve.
             </p>
           </motion.div>
 
@@ -126,9 +126,9 @@ const AboutUs = () => {
             className="mt-16 text-center"
           >
             <blockquote className="text-xl text-blue-900 italic">
-              "Our passion is creating a world where every pet receives the care
-              and love they deserve. We're more than just a pet care service -
-              we're your pet's second family."
+              &quot;Our passion is creating a world where every pet receives the
+              care and love they deserve. We&apos;re more than just a pet care
+              service - we&apos;re your pet&apos;s second family.&quot;
             </blockquote>
             <div className="mt-4 text-gray-600">- The Best.Pet Team</div>
           </motion.div>
